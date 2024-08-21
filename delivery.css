@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Cairo", sans-serif;
+}
+
+body{height: 100vh;}
+
+.kaisei-tokumin-regular {
+    font-family: "Kaisei Tokumin", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+header {background-color: rgb(255, 255, 255);
+    height: 293px;
+    font-family: kaisei-tokumin-regular;
+    word-spacing: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+header img { height:279px;
+width: 301px;}
+
+header svg {width: 20px;
+height: 90px;}
+
+.especiais {font-size: 16px;
+    display: flex;
+    font-family: kaisei-tokumin-regular;
+    justify-content: space-evenly;
+    word-spacing: 40px;
+}
+
+.main { display: flex;
+}
+
+.options {margin-top: 80px;
+height: 354px;
+align-content: center;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+.options img {border-radius: 50%;
+width: 204.8px;
+height: 200px;
+}
+
+.mainphoto {height: 380px;
+width: 835px;}
+
+.mainphrase {color: #DE8D8E;
+font-size: 96px;
+}
+
+.doces {display: flex;
+flex-direction: column;
+align-items: center;
+color: #88A672;
+font-family: kaisei-tokumin-regular;
+}
+
+.inicio {margin-top: 50px;}
+
+.quemsomos {display: flex;
+justify-content: center;}
+
+
+.media {
+    justify-content: end;
+}
+
+.cadastro {display: flex;
+justify-content: center;}
+
+a{ color: black;
+font-family: kaisei-tokumin-regular;}
+
+.maria{ color: #DF9999;
+}
+
+.macarrons {color: #88A672;}
+
+.formcontato {
+    background-image: url(contatoform.png);
+    width: 1195px;
+    height: 416px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#nome {
+border-radius: 5%;
+font-family: kaisei-tokumin-regular;
+margin-left: 250px;
+width: 358px;
+height: 43px;}
+
+
+#email {
+    border-radius: 5%;
+    font-family: kaisei-tokumin-regular;
+margin-left: 250px;
+width: 358px;
+height: 43px;}
+  
+
+#feedback {
+    border-radius: 5%;
+    font-family: kaisei-tokumin-regular;
+margin-left: 250px;
+width: 358px;
+height: 43px;
+}
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+ }
+  
+
+h1 {font-family: great-vibes-regular;
+color: #DE8D8E;
+text-align: center;
+margin-top: 40px;
+}
+
+.cadastroform {background-image: url(cadastroform.png);
+width: 1180px;
+height: 679px;
+margin-right: auto;
+margin-left: auto;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+.cadastrotext {font-family:kaisei-tokumin-regular;
+margin-left: 250px;
+overflow: hidden;}
+
+#cadastro {width: 358px;
+height: 43px;
+margin-left: 250px;}
+
+.busca {overflow: hidden;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start ;
+}
+
+.seucarrinho {
+    height: 600px;
+background-color: #D6E5C9;
+display: flex;
+flex-direction: column;
+justify-content: baseline;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+.carrinhoimg1 {display: flex;
+    flex-direction: row;
+}
+
+.carrinhoimg2 {display: flex;
+    flex-direction: row;
+}
+
+.carrinhoimg3 {display: flex;
+    flex-direction: row;
+}
+
+.seucarrinho p {font-family: 'Times New Roman', Times, serif;
+margin-left: 50px;}
+
+.seucarrinho img {width: 151.36px;
+    height: 140px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+    .buttonenviar {background-color: #88A672;
+    width: 200PX;
+height: 50px;
+margin-left: 250px;
+}
+
+.buttonpedidos {background-color: #88A672;
+    width: 200PX;
+height: 50px;
+margin-left: 550px;}
+
+.buttoncancel {background-color: #DE8D8E;
+height: 50px;
+width: 90px;
+margin-left: 50px;
+margin-top: 50px;}
+
+.infocarrinho {display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
